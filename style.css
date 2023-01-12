@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+header img{
+ border: 10px solid rgb(68, 66, 66);
+}
+header i{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(68, 66, 66);
+    padding: 7px;
+    border-radius: 50%;
+}
+header{
+    height: 100vh;
+}
+.offcanvas-body header{
+    height: auto;
+}
+.offbutton{
+position: fixed;
+top: 2%;
+right: 2%; 
+display: none;
+}
+nav i{
+    background-color:transparent ;
+    font-size: 18px;
+}
+.home{
+background: url("images/resumefin.png") no-repeat;
+height: 100vh;
+background-size:cover;
+background-attachment: fixed;
+}
+.content{
+    padding-top: 20%;
+    padding-left: 10%;
+}
+.home h1{
+    font-size: 50px;
+    
+}
+.home p{
+    color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.about{
+    margin-top: 10%;
+    padding-bottom: 3%;
+}
+.about h1{
+    color:rgb(7, 58, 92) ;
+    border-bottom: 2px solid rgb(73, 139, 238);
+    padding-bottom: 2%;
+    width: 10%;
+}
+.about h2{
+    color:rgb(31, 130, 168) ;
+    margin-top: 5%;
+}
+ul li{
+    margin-top: 4%;
+}
+ul li i{
+    color: rgb(73, 139, 238);
+}
+ul li .h1{
+    font-weight: 300;
+}
+.skills h6{
+    margin-top: 3%;
+}
+.resume .education{
+    margin-top: 5%;
+    border-left: 2px solid black;
+    padding-left: 3%;
+}
+.education .p{
+    background-color: rgb(190, 236, 221);
+}
+.contact .d-flex i{
+background-color: aquamarine;
+padding: 3%;
+margin-top: 0;
+font-size: 20px;
+color: rgb(55, 126, 219);
+border-radius: 50%;
+}
+.contact .cont{
+    margin-left: 2%;
+}
+.column1{
+    box-shadow: 0 0 2px gray;
+}
+@media screen and (max-width:600px){
+    .sidebar{
+      display: none;  
+    }
+    .offbutton{
+        display: block;
+        
+}}
+@media screen and (max-width:480px){
+    .sidebar{
+      display: none;  
+    }
+    .offbutton{
+        display: block;
+    }
+}
